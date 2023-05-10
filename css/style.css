@@ -210,3 +210,20 @@ p {
   font-weight: 500;
   margin: 10px 0;
 }
+
+@media (max-width: 1000px) {
+  .container {
+    margin: 10px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .about .box {
+    flex-direction: column;
+  }
+
+  .about .box .year_company {
+    margin-bottom: 5px;
+  }
+}
