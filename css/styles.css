@@ -195,7 +195,7 @@ a:active {
 .cv-footer {
   width: 100%;
 
-  gap: 50px;
+  gap: 30px;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -222,7 +222,7 @@ a:active {
 }
 
 .cv-education__item-title {
-  font-size: 16px;
+  font-size: 14px;
   color: #003a8a;
   text-align: start;
 }
